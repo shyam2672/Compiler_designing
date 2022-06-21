@@ -1,0 +1,63 @@
+TYPE: int
+MAIN: main
+LEFT_PAREN: (
+RIGHT_PAREN: )
+LEFT_BRACE: {
+TYPE: char
+ID : op
+SEMICOL: ;
+TYPE: double
+ID : first
+COMMA: ,
+ID : second
+SEMICOL: ;
+MAIN: printf
+LEFT_PAREN: (
+D_QUOTES: "Enter an operator (+, -, *, /): "
+RIGHT_PAREN: )
+SEMICOL: ;
+MAIN: scanf
+LEFT_PAREN: (
+D_QUOTES: "%c"
+COMMA: ,
+AND: &
+ID : op
+RIGHT_PAREN: )
+SEMICOL: ;
+MAIN: printf
+LEFT_PAREN: (
+D_QUOTES: "Enter two operands: "
+RIGHT_PAREN: )
+SEMICOL: ;
+MAIN: scanf
+LEFT_PAREN: (
+D_QUOTES: "%lf %lf"
+COMMA: ,
+AND: &
+ID : first
+COMMA: ,
+AND: &
+ID : second
+RIGHT_PAREN: )
+SEMICOL: ;
+Struct: struct
+ID : ap
+LEFT_BRACE: {
+TYPE: int
+ID : a
+SEMICOL: ;
+TYPE: int
+ID : c
+LEFT_SQ: [
+NUMBER : 3
+RIGHT_SQ: ]
+SEMICOL: ;
+TYPE: double
+ID : ch
+LEFT_SQ: [
+NUMBER : 32
+RIGHT_SQ: ]
+SEMICOL: ;
+RIGHT_BRACE: }
+SEMICOL: ;
+RIGHT_BRACE: }
