@@ -1,0 +1,6 @@
+Local Var-op
+Function body
+ Local Var-first
+Local Var-a
+Function body
+   constant: 3  Identifier-c    constant: 32  Identifier-ch  Function CALL
