@@ -8,7 +8,7 @@ For this I created cucu.l and cucu.y (lex and yacc) files according to the gener
 
 # Commands
 bison -d cucu.y <br />
-lex cucu.l <br />
+flex cucu.l <br />
 g++ cucu.tab.c lex.yy.c -lfl -o cucu <br />
 ./cucu sample.cu <br />
 
